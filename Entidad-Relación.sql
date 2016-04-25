@@ -62,4 +62,4 @@ constraint fk_fcf1 foreign key (CodigoFramework1) references FrameWork (CodigoFr
 constraint fk_flf1 foreign key (LengFramework1) references Lenguajes (CodigoLenguaje)
 )
 
-select * from Usuario
+select * from Lenguajes
